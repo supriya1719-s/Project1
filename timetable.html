@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #contaner .right{
+        margin-left: 9px ;
+        margin-right:9px;
+        padding-left: 9px;
+        padding-right: 9px;
+        border-left: 2px solid;
+        border-right: 2px solid ;
+    }
+    .tab{
+        margin: 30px auto 0;
+        width: 80%;
+    }
+    .tab tr td{
+        height: 60px;
+        width: 140px;
+        text-align: center;
+    }
+    .tab tr th{
+        height: 60px;
+        width: 140px; 
+    }
+  </style>
+  <body>
+    <div id="contaner">
+      <center>
+        <h1>Time table</h1>
+        <a href="index.html">Home</a>
+        <a href="blogss.html" class="right">Blogs</a>
+        <a href="syllabus.html">Syllabus</a>
+      </center>
+    </div>
+
+    <div class="tab">
+        <table border="10" cellspacing="1">
+            <tr>
+                <th style="background-color: lightgray;"></th>
+                <th style="background-color: lightgray;">1</th>
+                <th style="background-color: lightgray;">2</th>
+                <th style="background-color: lightgray;">3</th>
+                <th style="background-color: lightgray;">4</th>
+                <th style="background-color: lightgray;">5</th>
+                <th style="background-color: lightgray;">6</th>
+                <th style="background-color: lightgray;">7</th>
+                <th style="background-color: lightgray;">8</th>
+                <th style="background-color: lightgray;">9</th>
+            </tr>
+            <tr >
+                <td style="background-color: lightgray;">Monday</td>
+                <td  colspan="3"style="background-color: lightgray;">PA</td>
+                <td rowspan="6" style="background-color: lightgray;"><div style="transform:rotate(90deg)">LUNCH</div></td>
+                <td colspan="3"style="background-color: lightgray;">F&D</td>
+                <td colspan="2 "style="background-color: lightgray;">-</td> 
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td colspan="3">PA</td>
+
+                <td colspan="3">-</td>
+                <td colspan="2">NALR</td> 
+            </tr>
+            <tr>
+                <td style="background-color: lightgray;">wednesday</td>
+                <td colspan="3" style="background-color: lightgray;">PA</td>
+                <td colspan="3" style="background-color: lightgray;">F&D</td>
+                <td colspan="2" style="background-color: lightgray;">-</td> 
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td colspan="3">PA</td>
+                <td colspan="3">-</td>
+                <td colspan="2">NALR</td> 
+            </tr>
+            <tr>
+                <td style="background-color: lightgray;">Friday</td>
+                <td colspan="3" style="background-color: lightgray;">F&D</td>
+                <td colspan="3" style="background-color: lightgray;">-</td>
+                <td colspan="3" style="background-color: lightgray;">NALR</td> 
+            </tr>
+        </table>
+    </div>
+  </body>
+</html>
